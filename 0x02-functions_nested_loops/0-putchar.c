@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *  main - print _putchar followed by a new line
+ *  main - print _putchar follwed by a new line
  *  Return: Always 0 (Success)
  */
 int main(void)
@@ -10,9 +10,8 @@ int main(void)
 	while (*ch)
 	{
 		_putchar(*ch);
-		ch++;
+		ch++'
 	}
 	_putchar('\n');
 	return (0);
 }
-
