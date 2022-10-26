@@ -12,7 +12,7 @@ void print_to_98(int n)
 	{
 		for (c = n; c <= last; c++)
 		{
-			_putchar(c + '0');
+			_putchar(c);
 			if (c == last)
 				break;
 			_putchar(',');
@@ -23,7 +23,7 @@ void print_to_98(int n)
 	{
 		for (c = n; c >= last; c--)
 		{
-			_putchar(c + '0');
+			_putchar(c);
 			if (c == last)
 				break;
 			_putchar(',');
