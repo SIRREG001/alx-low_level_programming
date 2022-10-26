@@ -10,24 +10,18 @@ void print_to_98(int n)
 
 	if ((c == 0 || c < 0) && (c < 98 || c == 98))
 	{
-		for (c = n; c <= last; c++)
+		for (c = n; c < last; c++)
 		{
-			_putchar(c);
-			if (c == last)
-				break;
-			_putchar(',');
-			_putchar(' ');
+			printf("%d, ", c);
+			printf("%d\n", last);
 		}
 	}
 	else
 	{
-		for (c = n; c >= last; c--)
+		for (c = n; c > last; c--)
 		{
-			_putchar(c);
-			if (c == last)
-				break;
-			_putchar(',');
-			_putchar(' ');
+			printf("%d, ", c);
+			printf("%d\n", last);
 		}
 	}
 }
