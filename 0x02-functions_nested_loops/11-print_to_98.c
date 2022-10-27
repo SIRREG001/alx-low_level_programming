@@ -9,7 +9,7 @@ void print_to_98(int n)
 	int last = 98;
 	int c = n;
 
-	if ((c == 0 || c < 0) && (c < 98 || c == 98))
+	if (c < last)
 	{
 		for (c = n; c < last; c++)
 		{
